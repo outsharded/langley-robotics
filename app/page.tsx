@@ -26,8 +26,8 @@ const HomePage: React.FC = () => {
             <div className="w-full flex justify-center lg:h-[800px] 2xl:h-[1000px]">
               <Image className="rounded-lg object-cover object-top brightness-90 dark:opacity-95 opacity-100" src={side_pitch} alt="powercut team with awards"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
               <div className="absolute text-center pt-2 w-full text-amber-50">
-                <h1 className="text-4xl md:text-5xl xl:text-7xl font-bold font-avenir">Team Powercut</h1>
-                <h1 className="text-3xl xl:text-4xl font-medium font-avenir invisible lg:visible">First Tech Challenge #25268 - UK 497</h1>
+                <h1 className="text-5xl md:text-6xl xl:text-8xl font-bold py-4 font-avenir">LPSB Robotics</h1>
+
             </div>
             </div>
 
@@ -42,8 +42,8 @@ const HomePage: React.FC = () => {
             <Image className="rounded-lg float-right w-2/5 2 m-3 aspect-[1/1] object-cover" src={backdrops} alt="game backdrops"  sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">About Us</h1>
             <p className='p-2 text-lg font-medium text-start'>
-Hi! We&apos;re Powercut Robotics, #25268 (UK-497) from Langley Park School for Boys in South London.  <br /> <br /> 
-As the primary team of a Championship Organisation, we assist other teams witin our organisation and outside and promote STEM and robotics in our community<br /> <br /> 
+Hi! We&apos;re LPSB Robotics, comprising three teams from from Langley Park School for Boys in South London.  <br /> <br /> 
+As a Championship Organisation, we assist other teams and promote STEM and robotics in our community<br /> <br /> 
 
 </p>
             
@@ -67,12 +67,12 @@ As the primary team of a Championship Organisation, we assist other teams witin 
 
           <div className='rounded-lg m-4'>
             <h1 className="text-5xl font-medium font-avenir p-2">Control</h1>
-            <p className='p-2'>Our control system uses complex algoriths and theories to maximise on-field performance. We use many advanced systems, such as Proportional, Integral, Derivative controllers and FeedForward controllers, especially for pathing during autonomous.</p>
+            <p className='p-2'>Powercut Robotic's control system uses complex algoriths and theories to maximise on-field performance. We use many advanced systems, such as Proportional, Integral, Derivative controllers and FeedForward controllers, especially for pathing during autonomous.</p>
           </div>
 
           <div className='rounded-lg m-4'>
             <h1 className="text-5xl font-medium font-avenir p-2">Design</h1>
-            <p className='p-2'>Our Into the Deep robot is one of the first in the UK to implement a parallel plate drivetrain, allowing better weight distribution and a reduced footprint, making our robot excedingly maeverable and space efficient.</p>
+            <p className='p-2'>Powercut Robotic's Into the Deep robot is one of the first in the UK to implement a parallel plate drivetrain, allowing better weight distribution and a reduced footprint, making our robot excedingly maeverable and space efficient.</p>
           </div>
           
         </div>

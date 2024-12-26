@@ -1,10 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
-import logo from '../public/logo.svg'
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,36 +11,28 @@ const Header: React.FC = () => {
 
   return (
     <header className="z-10 sticky font-bold font-avenir text-md top-12 opacity-90  bg-stone-100 dark:bg-neutral-950 p-4 flex justify-between items-center h-24">
-      <SpeedInsights/>
-      <Analytics/>
       <div className={`basis-1/2 flex items-center ${isMenuOpen ? 'hidden' : ''}`}>
         <Link href="/">
           <h1 className={`px-2 text-3xl font-bold align-middle ${isMenuOpen ? 'hidden' : ''}`}>LPSB <br></br> Robotics</h1>
         </Link>
-        <div className="hidden md:block logo w-72 p-4">
-          <Image src={logo} alt="Powercut Robotics Team Logo" sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 33vw" />
-        </div>
       </div>
       <div className="md:basis-3/5 flex justify-end w-full">
         <div className={`w-full lg:w-auto ${isMenuOpen ? '' : 'hidden lg:flex'}`}>
           <nav className={`nav ${isMenuOpen ? 'block' : 'hidden lg:block'}`}>
             <div className="flex flex-wrap lg:justify-end text-xl">
+            <Link href="https://powercut-robotics.org" className="hover:text-gray-300 p-2" prefetch={true}>
+                Team Powercut
+              </Link> 
             <Link href="https://directory.powercut-robotics.org" className="hover:text-gray-300 p-2" prefetch={true}>
                 Directory
               </Link>
-
-              <a href="mailto:mfry@lpsb.org.uk,contact@powercut-robotics.org,info@powercut-robotics.org?subject=Support%20Powercut%20Robotcs" className="hover:text-gray-300 p-2">
-                Help us
-              </a>
-
-              
 
               <Link href="/awards" className="hover:text-gray-300 p-2" prefetch={true}>
                 Awards
               </Link> 
 
               <Link href="/team" className="hover:text-gray-300 p-2" prefetch={true}>
-                The Team
+                The Teams
               </Link>
               {/** 
               <Link href="/outreach" className="hover:text-gray-300 p-2">
@@ -55,9 +43,9 @@ const Header: React.FC = () => {
                 Donate
               </Link>
               */}
-              <Link href="https://www.instagram.com/powercut_robotics/" className="hover:text-gray-300 p-2" prefetch={true}>
+              {/* <Link href="https://www.instagram.com/powercut_robotics/" className="hover:text-gray-300 p-2" prefetch={true}>
                 Instagram
-              </Link>
+              </Link> */}
             </div>
           </nav>
           

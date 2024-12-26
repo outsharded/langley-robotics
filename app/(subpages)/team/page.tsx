@@ -11,8 +11,9 @@ const HomePage: React.FC = () => {
       <Header />
       <main className='h-max p-1 -mt-24 pt-32 mb:p-4 px-4 mb:px-10 bg-fixed bg-cover' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}}>
         <div>
-          <h1 className="text-5xl font-bold font-avenir mb-4 px-4">Meet the team</h1>
+          <h1 className="text-5xl font-bold font-avenir mb-4 px-4">Meet the teams</h1>
           <div className="">
+          <h1 className="text-4xl font-bold font-avenir mb-4 px-4">Powercut Robotics:</h1>
             <div className='grid gap-2 grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 p-2 items-center justify-center'>
               
               <div className='col-span-1 relative rounded-lg overflow-hidden'>
