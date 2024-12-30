@@ -2,12 +2,11 @@ import React from 'react';
 import Header from '@/app/Header';
 import Image from 'next/image';
 import Footer from '@/app/Footer';
-import Banner from '@/app/banner';
+
 
 const HomePage: React.FC = () => {
   return (
     <div className="h-max text-[#252622] dark:text-[#fffcf2] bg-stone-100 dark:bg-black">
-      <Banner />
       <Header />
       <main className='h-max p-1 -mt-24 pt-32 mb:p-4 px-4 mb:px-10 bg-fixed bg-cover' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}}>
         <div>
@@ -21,7 +20,7 @@ const HomePage: React.FC = () => {
                   <Image className='rounded-lg w-full aspect-square object-cover' src="/headshots/fabian.jpeg" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
                 </div>
                 <div className="absolute bottom-0 md:bottom-12 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Fabian</div>
-                <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Design Lead</div>
+                <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Programming Lead</div>
               </div>
 
               <div className='col-span-1 relative rounded-lg overflow-hidden '>
@@ -72,6 +71,16 @@ const HomePage: React.FC = () => {
                 <div className="absolute bottom-0 invisible md:visible left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-tr-lg text-xl p-2">Mentors</div>
               </div>
 
+            </div>
+            <h1 className="text-4xl font-bold font-avenir mb-4 px-4">Team Overload:</h1>
+            <div className='gap-2 grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 p-2 items-center justify-center'>
+            <div className='col-span-2 relative rounded-lg overflow-hidden'>
+                <div className="">
+                  <Image className='rounded-lg w-full aspect-[2/1] object-cover' src="/headshots/overload.webp" alt="Powercut Robotics Team" width={500} height={500} sizes="(max-width: 768px) 50wv, (max-width: 1024px) 33vw, 100vw"/>
+                </div>
+                <div className="absolute bottom-0 left-0 bg-stone-100 dark:bg-neutral-950 bg-opacity-70 dark:bg-opacity-70 rounded-r-lg font-mono text-2xl px-2 ">Milo, Joshua, Jake and Ethan</div>
+                
+              </div>
             </div>
           </div>
         </div>
