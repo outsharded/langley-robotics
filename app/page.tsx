@@ -6,21 +6,19 @@ import Footer from './Footer';
 import side_pitch from '../public/content/home/team_at_champs.webp';
 import backdrops from '../public/content/home/blue-green-underglow.jpeg';
 import in_field from '../public/content/home/keyring.jpeg';
-import Banner from './banner';
 
 const HomePage: React.FC = () => {
   return (
     
-    <div className="min-h-screen font-avenir font-medium text-cyan-950 dark:text-amber-50 bg-stone-100 dark:bg-black">
-      <Banner />
+    <div className="min-h-screen font-avenir font-medium text-black dark:text-amber-50 bg-stone-100 dark:bg-black">
       <Header />
-      
+       
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <main className="">
 
-        <div className='bg-fixed md:bg-cover pb-14' style={{backgroundImage: 'url(/backgrounds/topography.svg)'}} rel='preload'>
+        <div className='bg-fixed bg-repeat pb-14' style={{backgroundImage: 'url(/backgrounds/hexagons.svg)'}} rel='preload'>
           
-          <div className='pt-40 -mt-24'></div>
+          <div className='pt-36 -mt-24'></div>
           <div className='flex justify-center items-center'>
           <div className="w-11/12 p-2 rounded-lg">
             <div className="w-full flex justify-center lg:h-[800px] 2xl:h-[1000px]">
@@ -36,7 +34,7 @@ const HomePage: React.FC = () => {
           
         </div>
 
-        <div className='w-full bg-powercut_pink_contrast text-cyan-950 grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-center md:text-start py-6'>
+        <div className='w-full bg-lpsb_maroon_light dark:bg-lpsb_maroon dark:text-amber-50 grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-center md:text-start py-6'>
           
           <div className='rounded-lg m-4 h-full'>
             <Image className="rounded-lg float-right w-2/5 2 m-3 aspect-[1/1] object-cover" src={backdrops} alt="game backdrops"  sizes="(max-width: 1024px) 40vw, 20vw" />

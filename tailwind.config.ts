@@ -23,6 +23,8 @@ const config: Config = {
         powercut_pink:'#FF5757',
         powercut_pink_contrast: '#FF6B6B',
         dark_bg_box: '#0a0a0a',
+        lpsb_maroon: '#38111b',
+        lpsb_maroon_light: '#b03654',
       }
     },
   },

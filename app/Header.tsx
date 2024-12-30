@@ -10,7 +10,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="z-10 sticky font-bold font-avenir text-md top-12 opacity-90  bg-stone-100 dark:bg-neutral-950 p-4 flex justify-between items-center h-24">
+    <header className="z-10 sticky font-bold font-avenir text-md top-0 opacity-95  bg-lpsb_maroon_light dark:bg-lpsb_maroon p-4 flex justify-between items-center h-24">
       <div className={`basis-1/2 flex items-center ${isMenuOpen ? 'hidden' : ''}`}>
         <Link href="/">
           <h1 className={`px-2 text-3xl font-bold align-middle ${isMenuOpen ? 'hidden' : ''}`}>LPSB <br></br> Robotics</h1>
