@@ -65,12 +65,12 @@ As a Championship Organisation, we assist other teams and promote STEM and robot
 
           <div className='rounded-lg m-4'>
             <h1 className="text-5xl font-medium font-avenir p-2">Control</h1>
-            <p className='p-2'>Powercut Robotic's control system uses complex algoriths and theories to maximise on-field performance. We use many advanced systems, such as Proportional, Integral, Derivative controllers and FeedForward controllers, especially for pathing during autonomous.</p>
+            <p className='p-2'>Powercut Robotic&apos;s control system uses complex algoriths and theories to maximise on-field performance. We use many advanced systems, such as Proportional, Integral, Derivative controllers and FeedForward controllers, especially for pathing during autonomous.</p>
           </div>
 
           <div className='rounded-lg m-4'>
             <h1 className="text-5xl font-medium font-avenir p-2">Design</h1>
-            <p className='p-2'>Powercut Robotic's Into the Deep robot is one of the first in the UK to implement a parallel plate drivetrain, allowing better weight distribution and a reduced footprint, making our robot excedingly maeverable and space efficient.</p>
+            <p className='p-2'>Powercut Robotic&apos;s Into the Deep robot is one of the first in the UK to implement a parallel plate drivetrain, allowing better weight distribution and a reduced footprint, making our robot excedingly maeverable and space efficient.</p>
           </div>
           
         </div>
